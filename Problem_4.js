@@ -5,7 +5,7 @@ function palindrome(string) {
     const len = string.length;
     // loop string
     for (let i = 0; i < len / 2; i++) {
-        // check if first and last string are same
+        // check if pertama dan string terakhir apakah sama
         if (string[i] !== string[len - 1 - i]) {
             return "false";
         }
